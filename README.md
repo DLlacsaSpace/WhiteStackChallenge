@@ -1,3 +1,7 @@
 # Whistack Challenge 2
 
-# Install the Nginx application:
+# Iniciar
+
+```
+kubectl -n <your-namespace> port-forward svc/nginx 18080:80
+```
