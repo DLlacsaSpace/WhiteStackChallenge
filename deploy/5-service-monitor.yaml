@@ -1,0 +1,18 @@
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: nginx
+  namespace: dllacsa
+  labels:
+    prometheus: main
+spec:
+  namespaceSelector:
+    matchNames:
+      - dllacsa
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: nginx
+  endpoints:
+    - port: metrics
+      path: /metrics

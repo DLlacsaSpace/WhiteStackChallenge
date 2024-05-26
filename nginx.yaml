@@ -47,6 +47,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx
+  namespace: dllacsa
   labels:
     app.kubernetes.io/instance: nginx
     app.kubernetes.io/name: nginx
@@ -72,6 +73,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
+  #just in case
+  namespace: dllacsa
   labels:
     app.kubernetes.io/instance: nginx
     app.kubernetes.io/name: nginx
