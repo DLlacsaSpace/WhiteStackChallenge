@@ -1,6 +1,6 @@
 # Whistack Challenge 2
 
-Realice un diagrama en base al requerimiento
+Diagrama de arquitectura:
 
 ![Ejemplo de imagen](https://github.com/DLlacsaSpace/compartido/blob/main/blob/main/images/ws-challenge/diagrama.png?raw=true)
 
