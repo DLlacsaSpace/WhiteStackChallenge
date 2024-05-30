@@ -35,8 +35,8 @@ def generate_inter_arrival_times(arrival_rate: int,
 # Set up API calls...
 
 # Configure inter arrival time and arrival rate semantics.
-arrival_rate = 20  # Average arrival rate of 20 requests per second
-decay_rate = 0.2  # Decay rate of 0.2 requests per second
+arrival_rate = 100  # Average arrival rate of 20 requests per second
+decay_rate = 0.1  # Decay rate of 0.2 requests per second
 duration = 120  # Duration of the load test in seconds
 
 host, port = ('127.0.0.1', 18080)
