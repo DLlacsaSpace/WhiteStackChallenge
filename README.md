@@ -4,7 +4,7 @@ Diagrama de arquitectura:
 
 ![Ejemplo de imagen](https://github.com/DLlacsaSpace/compartido/blob/main/blob/main/images/ws-challenge/diagrama.png?raw=true)
 
-# Iniciar
+# Ejecucion
 
 1.- Para la primer punto de desplegar el nginx y nginx exporter no encontré ninguna dificultad, la URL expuesta con las métricas fue la siguiente:
 
