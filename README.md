@@ -26,7 +26,7 @@ kubectl apply -R -f 1-prometheus/monitoring
 ```
 Para que prometheus pueda reconocer las métricas tuve que crear el serviceMonitor
 ```
-kubectl apply -f   kubectl apply -f 1-prometheus/0-service-monitor.yaml
+kubectl apply -f kubectl apply -f 1-prometheus/0-service-monitor.yaml
 ```
 3.- Para el tercer requerimiento se solicita crear un grafana en ambiente local, por lo que desplegue un contenedor grafana con docker compose
 ```
@@ -38,7 +38,7 @@ y luego dentro de grafana se configura la fuente de datos con prometheus
 4.- No tuve complicaciones en crear los primeros 4 graficos en prometheus, para los 3 ultimos tuve que habilitar cadvisor y kube-state-metrics para cumplir con los requerimientos
 Para desplegar los componentes:
 ```
-kubectl apply -f 3-adicionales/
+kubectl apply -R -f 3-adicionales/
 ```
 Se podrá ubicar el dashboard en formato Json en la carpeta 5-entregables
 5.- Alertas
