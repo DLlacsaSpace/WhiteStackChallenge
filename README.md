@@ -1,6 +1,8 @@
 # Whistack Challenge 2
 
-![Ejemplo de imagen](https://github.com/DLlacsaSpace/compartido/blob/main/blob/main/images/Captura1.png?raw=true)
+Realice un diagrama en base al requerimiento
+
+![Ejemplo de imagen](https://github.com/DLlacsaSpace/compartido/blob/main/blob/main/images/ws-challenge/diagrama.png?raw=true)
 
 # Iniciar
 
