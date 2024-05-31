@@ -40,7 +40,9 @@ Para desplegar los componentes:
 kubectl apply -R -f 3-adicionales/
 ```
 Se podrá ubicar el dashboard en formato Json en la carpeta 5-entregables
+
 5.- Alertas
+Se subiran las evidencias de las alertas disparadas
 
 6.- Generar carga
 
