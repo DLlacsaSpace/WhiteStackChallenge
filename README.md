@@ -28,10 +28,9 @@ Para que prometheus pueda reconocer las métricas tuve que crear el serviceMonit
 ```
 kubectl apply -f kubectl apply -f 1-prometheus/0-service-monitor.yaml
 ```
-3.- Para el tercer requerimiento se solicita crear un grafana en ambiente local, por lo que desplegue un contenedor grafana con docker compose
+3.- Para el tercer requerimiento se solicita crear un servidor grafana
 ```
-cd 2-grafana
-docker-compose up -d
+kubectl apply -f 2-grafana
 ```
 y luego dentro de grafana se configura la fuente de datos con prometheus
 
